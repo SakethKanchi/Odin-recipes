@@ -1,0 +1,35 @@
+:root{
+    --dark: #161320;
+    --dark-light: #302D41;
+    --white: #C3BAC6;
+    --white-light: #D9E0EE;
+}
+*{
+    background-color: var(--dark-light);
+}
+body{
+    max-width: 30vw;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--dark-light);
+    padding: 25px 0;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+ul,ol{
+    text-align: left;
+    color: var(--white);
+}
+h1,h2,h3{
+    color: var(--white);
+}
+a{
+    color: var(--white);
+}
+a:hover{
+    color:var(--white-light);
+}
